@@ -6,6 +6,8 @@ SECTIONS {
     . = 0x100000;
 
     .text : {
+        /* Ensure kernel_main is placed first */
+        *(.text.kernel_main)
         *(.text*)
     }
 
@@ -18,8 +20,8 @@ SECTIONS {
     }
 
     .bss : {
-        *(.bss*)
         *(COMMON)
+        *(.bss*)
     }
 
     /DISCARD/ : {

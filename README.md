@@ -111,5 +111,3 @@ After this foundation, typical OS development continues with:
 - UEFI Specification: https://uefi.org/specifications
 - OSDev Wiki: https://wiki.osdev.org/UEFI
 - gnu-efi: https://sourceforge.net/projects/gnu-efi/
- 
- 

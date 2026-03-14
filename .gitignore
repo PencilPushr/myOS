@@ -430,6 +430,11 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
+# Make exceptions
+!Makefile
+!**/Makefile
+!*.mk
+
 out/
 
 CMakeLists.txt.user
